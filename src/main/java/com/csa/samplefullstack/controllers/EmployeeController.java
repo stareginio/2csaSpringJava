@@ -27,12 +27,12 @@ public class EmployeeController {
     }
     
     @GetMapping("/employees/{id}")
-    public Employee getEmployeeFromId(@PathVariable Long id){
+    public Employee getEmployee(@PathVariable Long id){
         return employeeRepository.findById(id).get();
     }
     
     @PutMapping("/employees")
-    public Employee getEmployee(@RequestBody Employee employee){
+    public Employee putEmployee(@RequestBody Employee employee){
         return employeeRepository.save(employee);
     }
     
