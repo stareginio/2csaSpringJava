@@ -1,3 +1,5 @@
+package com.csa.samplefullstack.controllers;
+
 @RestController
 public class IndexController implements ErrorController{
 
