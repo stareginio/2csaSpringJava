@@ -9,7 +9,7 @@ import org.springframework.http.*;
 import java.util.*;
 
 @RestController
-@RequestMapping("/api/v1")
+@RequestMapping("/")
 @CrossOrigin("*")
 public class EmployeeController {
     
